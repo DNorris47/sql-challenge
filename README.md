@@ -22,15 +22,7 @@ Inspect the CSVs and sketch out an ERD of the tables. Used a tool like [http://w
 7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
-### SQL Alchemy
-* Import the SQL database into Pandas using the following:
-   ```sql
-   from sqlalchemy import create_engine
-   engine = create_engine('postgresql://localhost:5432/<your_db_name>')
-   connection = engine.connect()
-   ```
-* Create a histogram to visualize the most common salary ranges for employees.
-* Create a bar chart of average salary by title.
+
 
 
 
